@@ -10,7 +10,6 @@
 		58E527AA2C17CE140011A4EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E527A92C17CE140011A4EE /* AppDelegate.swift */; };
 		58E527AC2C17CE140011A4EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E527AB2C17CE140011A4EE /* SceneDelegate.swift */; };
 		58E527AE2C17CE140011A4EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E527AD2C17CE140011A4EE /* ViewController.swift */; };
-		58E527B12C17CE140011A4EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E527AF2C17CE140011A4EE /* Main.storyboard */; };
 		58E527B32C17CE160011A4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E527B22C17CE160011A4EE /* Assets.xcassets */; };
 		58E527B62C17CE160011A4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E527B42C17CE160011A4EE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		58E527A92C17CE140011A4EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58E527AB2C17CE140011A4EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		58E527AD2C17CE140011A4EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		58E527B02C17CE140011A4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58E527B22C17CE160011A4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58E527B52C17CE160011A4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58E527B72C17CE160011A4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 				58E527A92C17CE140011A4EE /* AppDelegate.swift */,
 				58E527AB2C17CE140011A4EE /* SceneDelegate.swift */,
 				58E527AD2C17CE140011A4EE /* ViewController.swift */,
-				58E527AF2C17CE140011A4EE /* Main.storyboard */,
 				58E527B22C17CE160011A4EE /* Assets.xcassets */,
 				58E527B42C17CE160011A4EE /* LaunchScreen.storyboard */,
 				58E527B72C17CE160011A4EE /* Info.plist */,
@@ -127,7 +124,6 @@
 			files = (
 				58E527B62C17CE160011A4EE /* LaunchScreen.storyboard in Resources */,
 				58E527B32C17CE160011A4EE /* Assets.xcassets in Resources */,
-				58E527B12C17CE140011A4EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		58E527AF2C17CE140011A4EE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				58E527B02C17CE140011A4EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		58E527B42C17CE160011A4EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +284,7 @@
 				INFOPLIST_FILE = Login/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,9 +294,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.JoaoPedro.Login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,7 +315,7 @@
 				INFOPLIST_FILE = Login/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,9 +325,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.JoaoPedro.Login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
