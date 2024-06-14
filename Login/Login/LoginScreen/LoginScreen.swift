@@ -98,6 +98,11 @@ class LoginScreen: UIView {
         addSubview(registerButton)
     }
     
+    public func configTextFieldDelegate(delegate: UITextFieldDelegate) {
+        self.emailTextField.delegate = delegate
+        self.passwordTextField.delegate = delegate
+    }
+    
     private func setupContraints() {
         NSLayoutConstraint.activate([
             loginLabel.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 20),
