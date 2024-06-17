@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
     var loginScreen: LoginScreen?
     
     override func loadView() {
@@ -27,17 +27,19 @@ class ViewController: UIViewController {
     
 }
 
-extension ViewController: LoginScreenProtocol {
+extension LoginViewController: LoginScreenProtocol {
     func actionLoginButton() {
         print("LoginButton VC")
     }
     
     func actionRegisterButton() {
+        let vc: RegisterViewController = RegisterViewController()
         print("RegisterButton VC")
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 
-extension ViewController: UITextFieldDelegate {
+extension LoginViewController: UITextFieldDelegate {
     
     func textFieldDidEndEditing(_ textField: UITextField) {
         print("textFieldDidEndEditing")
