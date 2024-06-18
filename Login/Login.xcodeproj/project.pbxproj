@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		580F31AF2C20FB8D006E18AF /* RegisterScreen.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580F31AE2C20FB8D006E18AF /* RegisterScreen.xcassets */; };
 		58ADC6DE2C1F552C009A8011 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ADC6DD2C1F552C009A8011 /* RegisterScreen.swift */; };
 		58ADC6E02C1F5536009A8011 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ADC6DF2C1F5536009A8011 /* RegisterViewController.swift */; };
 		58E527AA2C17CE140011A4EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E527A92C17CE140011A4EE /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		580F31AE2C20FB8D006E18AF /* RegisterScreen.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = RegisterScreen.xcassets; sourceTree = "<group>"; };
 		58ADC6DD2C1F552C009A8011 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		58ADC6DF2C1F5536009A8011 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		58E527A62C17CE140011A4EE /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +50,7 @@
 			children = (
 				58ADC6DD2C1F552C009A8011 /* RegisterScreen.swift */,
 				58ADC6DF2C1F5536009A8011 /* RegisterViewController.swift */,
+				580F31AE2C20FB8D006E18AF /* RegisterScreen.xcassets */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580F31AF2C20FB8D006E18AF /* RegisterScreen.xcassets in Resources */,
 				58F84C8E2C1BCEE800B3F451 /* LoginScreen.xcassets in Resources */,
 				58E527B62C17CE160011A4EE /* LaunchScreen.storyboard in Resources */,
 				58E527B32C17CE160011A4EE /* Assets.xcassets in Resources */,
