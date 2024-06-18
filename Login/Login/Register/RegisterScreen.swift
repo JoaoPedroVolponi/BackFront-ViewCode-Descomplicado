@@ -7,12 +7,24 @@
 
 import UIKit
 
+protocol RegisterScreenProtocol: class {
+    func actionBackButton()
+    func actionRegisterButton()
+}
+
 class RegisterScreen: UIView {
+    
+    weak private var delegate: RegisterScreenProtocol?
+    
+    func delegate(delegate: RegisterScreenProtocol?) {
+        self.delegate = delegate
+    }
     
     lazy var backButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setImage(UIImage(named: "back"), for: .normal)
+        button.addTarget(self, action: #selector(tappedBackButton), for: .touchUpInside)
         return button
     }()
     
@@ -54,8 +66,10 @@ class RegisterScreen: UIView {
     lazy var registerButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.addTarget(self, action: #selector(tappedRegisterButton), for: .touchUpInside)
         button.setTitle("Cadastrar", for: .normal)
-        button.setTitleColor(.white, for: .normal)
+        button.setTitleColor(.lightGray, for: .normal)
+        button.isEnabled = false
         button.clipsToBounds = true
         button.layer.cornerRadius = 7.5
         button.backgroundColor = UIColor(named: "greenSecundary")
@@ -69,13 +83,42 @@ class RegisterScreen: UIView {
         self.setupContraints()
     }
     
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     public func configTextFieldDelegate(delegate: UITextFieldDelegate) {
         self.emailTextField.delegate = delegate
         self.passwordTextField.delegate = delegate
     }
     
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    @objc private func tappedBackButton() {
+        self.delegate?.actionBackButton()
+    }
+    
+    @objc private func tappedRegisterButton() {
+        self.delegate?.actionRegisterButton()
+    }
+    
+    public func validaTextField() {
+        let email: String = self.emailTextField.text ?? " "
+        let password: String = self.passwordTextField.text ?? " "
+        
+        if !email.isEmpty && !password.isEmpty {
+            self.configButtonEnabled(true)
+        } else {
+            self.configButtonEnabled(false)
+        }
+    }
+    
+    private func configButtonEnabled(_ enable: Bool) {
+        if enable {
+            self.registerButton.setTitleColor(.white, for: .normal)
+            self.registerButton.isEnabled = true
+        } else {
+            self.registerButton.setTitleColor(.lightGray, for: .normal)
+            self.registerButton.isEnabled = false
+        }
     }
     
     private func configBackGround() {
