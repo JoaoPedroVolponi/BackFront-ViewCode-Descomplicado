@@ -98,7 +98,6 @@ class LoginScreen: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    
     private func configBackGround() {
         backgroundColor = UIColor(named: "green")
     }

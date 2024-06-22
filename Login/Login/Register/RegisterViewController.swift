@@ -56,5 +56,4 @@ extension RegisterViewController: RegisterScreenProtocol {
         })
         print("Register Button")
     }
-    
 }
