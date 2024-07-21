@@ -54,9 +54,7 @@ extension RegisterViewController: RegisterScreenProtocol {
                 self.alert?.getAlert(titulo: "Erro", mensagem: "Ao se cadastrar, tente novamente.")
             } else {
                 print("Sucesso")
-                self.alert?.getAlert(titulo: "Parabéns!", mensagem: "Usuário cadastrado com sucesso.", completion: {
-                    self.navigationController?.popViewController(animated: true)
-                })
+                self.alert?.getAlert(titulo: "Parabéns", mensagem: "Usuário cadastrado com sucesso.")
             }
         })
         print("Register Button")
