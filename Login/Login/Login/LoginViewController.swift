@@ -42,6 +42,7 @@ extension LoginViewController: LoginScreenProtocol {
             } else {
                 if usuario === nil {
                     print("Tivemos um problema, tente novamente mais tarde!")
+                    self.alert?.getAlert(titulo: "OPS!", mensagem: "Tivemos um problema, tente novamente mais tarde!")
                 } else {
                     print("Parabéns, usuário logado com sucesso!")
                     self.alert?.getAlert(titulo: "Parabéns", mensagem: "Usuário e senhas corretos")
