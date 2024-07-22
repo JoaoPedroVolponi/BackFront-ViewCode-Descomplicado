@@ -44,6 +44,7 @@ extension LoginViewController: LoginScreenProtocol {
                     print("Tivemos um problema, tente novamente mais tarde!")
                 } else {
                     print("Parabéns, usuário logado com sucesso!")
+                    self.alert?.getAlert(titulo: "Parabéns", mensagem: "Usuário e senhas corretos")
                 }
             }
         })
