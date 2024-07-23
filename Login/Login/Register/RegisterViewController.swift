@@ -25,6 +25,7 @@ class RegisterViewController: UIViewController {
         self.registerScreen?.configTextFieldDelegate(delegate: self)
         self.registerScreen?.delegate(delegate: self)
         self.auth = Auth.auth()
+        self.alert = Alert(controller: self)
     }
 }
 
@@ -54,7 +55,9 @@ extension RegisterViewController: RegisterScreenProtocol {
                 self.alert?.getAlert(titulo: "Erro", mensagem: "Ao se cadastrar, tente novamente.")
             } else {
                 print("Sucesso")
-                self.alert?.getAlert(titulo: "Parabéns", mensagem: "Usuário cadastrado com sucesso.")
+                self.alert?.getAlert(titulo: "Parabéns", mensagem: "Usuário cadastrado com sucesso.", completion: {
+                    self.navigationController?.popViewController(animated: true)
+                })
             }
         })
         print("Register Button")
