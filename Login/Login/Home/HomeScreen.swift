@@ -27,6 +27,11 @@ class HomeScreen: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
+    public func configTableViewProtocols(delegate: UITableViewDelegate, dataSource: UITableViewDataSource) {
+        self.tableView.delegate = delegate
+        self.tableView.dataSource = dataSource
+    }
+    
     private func configSuperView() {
         addSubview(tableView)
     }
