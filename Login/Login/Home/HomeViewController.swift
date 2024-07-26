@@ -18,7 +18,8 @@ class HomeViewController: UIViewController {
     }
     
     override func viewDidLoad() {
-        self.view.backgroundColor = .red
+        super.viewDidLoad()
+        self.homeScreen?.configTableViewProtocols(delegate: self, dataSource: self)
     }
     
 }
