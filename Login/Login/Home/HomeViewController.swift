@@ -19,7 +19,7 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.homeScreen?.configTableViewProtocols(delegate: self, dataSource: self)
+        //        self.homeScreen?.configTableViewProtocols(delegate: self, dataSource: self)
     }
     
 }

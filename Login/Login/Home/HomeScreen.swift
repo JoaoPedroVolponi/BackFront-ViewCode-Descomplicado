@@ -11,7 +11,7 @@ import UIKit
 class HomeScreen: UIView {
     
     lazy var tableView: UITableView = {
-       let tableView = UITableView()
+        let tableView = UITableView()
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.backgroundColor = .white
         return tableView
