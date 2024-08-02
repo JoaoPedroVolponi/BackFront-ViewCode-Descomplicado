@@ -19,6 +19,7 @@ class HomeScreen: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        configBackGround()
         configSuperView()
         setupContraints()
     }
@@ -34,6 +35,10 @@ class HomeScreen: UIView {
     
     private func configSuperView() {
         addSubview(tableView)
+    }
+    
+    private func configBackGround() {
+        backgroundColor = UIColor(named: "green")
     }
     
     private func setupContraints() {
