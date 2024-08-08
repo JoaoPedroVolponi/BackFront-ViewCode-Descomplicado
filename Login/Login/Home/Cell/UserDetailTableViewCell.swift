@@ -9,6 +9,8 @@ import UIKit
 
 class UserDetailTableViewCell: UITableViewCell {
     
+    static let identifier: String = "UserDetailTableViewCell"
+    
     lazy var userImageView: UIImageView = {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false

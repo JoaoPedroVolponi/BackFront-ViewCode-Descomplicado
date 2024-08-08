@@ -71,6 +71,7 @@
 		588F09A02C5067DE00B752F7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				58DD732D2C65805200023B98 /* Model */,
 				58DD73282C61BC6300023B98 /* Cell */,
 				588F09A12C5067F700B752F7 /* HomeScreen.swift */,
 				588F09A32C50680400B752F7 /* HomeViewController.swift */,
@@ -94,6 +95,13 @@
 				58DD732B2C61BCA700023B98 /* UserDetailTableViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		58DD732D2C65805200023B98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		58E5279D2C17CE140011A4EE = {
