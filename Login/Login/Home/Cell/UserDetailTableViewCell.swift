@@ -8,7 +8,7 @@
 import UIKit
 
 class UserDetailTableViewCell: UITableViewCell {
-
+    
     lazy var userImageView: UIImageView = {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
@@ -16,22 +16,38 @@ class UserDetailTableViewCell: UITableViewCell {
         return image
     }()
     
-    lazy var nomeLabel: UILabel = {
+    lazy var nameLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textColor = .black
         return label
     }()
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    func addSubView() {
+        self.contentView.addSubview(userImageView)
+        self.contentView.addSubview(nameLabel)
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        self.addSubView()
+        self.setUpContraints()
     }
-
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func setUpContraints() {
+        NSLayoutConstraint.activate([
+            userImageView.centerYAnchor.constraint(equalTo: centerYAnchor),
+            userImageView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            userImageView.heightAnchor.constraint(equalToConstant: 80),
+            userImageView.widthAnchor.constraint(equalToConstant: 80),
+            
+            nameLabel.centerYAnchor.constraint(equalTo: centerYAnchor),
+            nameLabel.leadingAnchor.constraint(equalTo: userImageView.trailingAnchor, constant: 20)
+        ])
+    }
+    
 }
