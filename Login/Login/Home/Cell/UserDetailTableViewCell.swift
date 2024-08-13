@@ -40,6 +40,11 @@ class UserDetailTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    public func setUpCell(data: DataUser) {
+        self.nameLabel.text = data.name
+        self.userImageView.image = UIImage(named: data.nameImage)
+    }
+    
     private func setUpContraints() {
         NSLayoutConstraint.activate([
             userImageView.centerYAnchor.constraint(equalTo: centerYAnchor),
@@ -51,5 +56,4 @@ class UserDetailTableViewCell: UITableViewCell {
             nameLabel.leadingAnchor.constraint(equalTo: userImageView.trailingAnchor, constant: 20)
         ])
     }
-    
 }
