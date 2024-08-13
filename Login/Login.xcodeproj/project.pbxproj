@@ -22,6 +22,7 @@
 		58E527B32C17CE160011A4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E527B22C17CE160011A4EE /* Assets.xcassets */; };
 		58E527B62C17CE160011A4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E527B42C17CE160011A4EE /* LaunchScreen.storyboard */; };
 		58E527C12C17E6000011A4EE /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E527C02C17E6000011A4EE /* LoginScreen.swift */; };
+		58EFD9652C6AF7560036443E /* HomeAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58EFD9642C6AF7560036443E /* HomeAssets.xcassets */; };
 		58F84C8E2C1BCEE800B3F451 /* LoginScreen.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58F84C8D2C1BCEE800B3F451 /* LoginScreen.xcassets */; };
 		E45FE90FA09E11D4150656B0 /* Pods_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779CDE83A8C5A07FBBD31255 /* Pods_Login.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 		58E527B52C17CE160011A4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58E527B72C17CE160011A4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58E527C02C17E6000011A4EE /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		58EFD9642C6AF7560036443E /* HomeAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HomeAssets.xcassets; sourceTree = "<group>"; };
 		58F84C8D2C1BCEE800B3F451 /* LoginScreen.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LoginScreen.xcassets; sourceTree = "<group>"; };
 		779CDE83A8C5A07FBBD31255 /* Pods_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE1B8A1982DEFD586A844A0 /* Pods-Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.release.xcconfig"; path = "Target Support Files/Pods-Login/Pods-Login.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				58DD73282C61BC6300023B98 /* Cell */,
 				588F09A12C5067F700B752F7 /* HomeScreen.swift */,
 				588F09A32C50680400B752F7 /* HomeViewController.swift */,
+				58EFD9642C6AF7560036443E /* HomeAssets.xcassets */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				580F31AF2C20FB8D006E18AF /* RegisterScreen.xcassets in Resources */,
+				58EFD9652C6AF7560036443E /* HomeAssets.xcassets in Resources */,
 				58F84C8E2C1BCEE800B3F451 /* LoginScreen.xcassets in Resources */,
 				583B78BC2C224B1B004F831A /* GoogleService-Info.plist in Resources */,
 				58E527B62C17CE160011A4EE /* LaunchScreen.storyboard in Resources */,
