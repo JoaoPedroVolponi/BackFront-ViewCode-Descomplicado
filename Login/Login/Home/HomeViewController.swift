@@ -11,9 +11,10 @@ import UIKit
 class HomeViewController: UIViewController {
     
     var homeScreen: HomeScreen?
-    var data: [DataUser] = [DataUser
-                            (name: "Caio", nameImage: "menino1"),
-                            (name: "Caio", nameImage: "menino1"),
+    var data: [DataUser] = [DataUser(name: "Caio", nameImage: "menino1"),
+                            DataUser(name: "João", nameImage: "menino1"),
+                            DataUser(name: "Pedro", nameImage: "menino1")
+                            
     ]
 
     override func loadView() {
