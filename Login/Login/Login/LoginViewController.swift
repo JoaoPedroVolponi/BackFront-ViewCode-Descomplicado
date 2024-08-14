@@ -35,21 +35,21 @@ class LoginViewController: UIViewController {
 extension LoginViewController: LoginScreenProtocol {
     func actionLoginButton() {
         navigationHomeScreen()
-//        guard let login = self.loginScreen else {return}
-//        self.auth?.signIn(withEmail: login.getEmail(), password: login.getPassword(), completion: { (usuario, error) in
-//            if error != nil {
-//                print("Atenção dados incorretos, verifique e tente novamente")
-//                self.alert?.getAlert(titulo: "Erro", mensagem: "Usuário e senha incorretos")
-//            } else {
-//                if usuario === nil {
-//                    print("Tivemos um problema, tente novamente mais tarde!")
-//                    self.alert?.getAlert(titulo: "OPS!", mensagem: "Tivemos um problema, tente novamente mais tarde!")
-//                } else {
-//                    print("Parabéns, usuário logado com sucesso!")
-//                    self.alert?.getAlert(titulo: "Parabéns", mensagem: "Usuário e senhas corretos")
-//                }
-//            }
-//        })
+        //        guard let login = self.loginScreen else {return}
+        //        self.auth?.signIn(withEmail: login.getEmail(), password: login.getPassword(), completion: { (usuario, error) in
+        //            if error != nil {
+        //                print("Atenção dados incorretos, verifique e tente novamente")
+        //                self.alert?.getAlert(titulo: "Erro", mensagem: "Usuário e senha incorretos")
+        //            } else {
+        //                if usuario === nil {
+        //                    print("Tivemos um problema, tente novamente mais tarde!")
+        //                    self.alert?.getAlert(titulo: "OPS!", mensagem: "Tivemos um problema, tente novamente mais tarde!")
+        //                } else {
+        //                    print("Parabéns, usuário logado com sucesso!")
+        //                    self.alert?.getAlert(titulo: "Parabéns", mensagem: "Usuário e senhas corretos")
+        //                }
+        //            }
+        //        })
     }
     
     func actionRegisterButton() {
