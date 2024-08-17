@@ -22,7 +22,6 @@
 		58E527B32C17CE160011A4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E527B22C17CE160011A4EE /* Assets.xcassets */; };
 		58E527B62C17CE160011A4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E527B42C17CE160011A4EE /* LaunchScreen.storyboard */; };
 		58E527C12C17E6000011A4EE /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E527C02C17E6000011A4EE /* LoginScreen.swift */; };
-		58F84C8E2C1BCEE800B3F451 /* LoginScreen.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58F84C8D2C1BCEE800B3F451 /* LoginScreen.xcassets */; };
 		E45FE90FA09E11D4150656B0 /* Pods_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779CDE83A8C5A07FBBD31255 /* Pods_Login.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +44,6 @@
 		58E527B52C17CE160011A4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58E527B72C17CE160011A4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58E527C02C17E6000011A4EE /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
-		58F84C8D2C1BCEE800B3F451 /* LoginScreen.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LoginScreen.xcassets; sourceTree = "<group>"; };
 		779CDE83A8C5A07FBBD31255 /* Pods_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE1B8A1982DEFD586A844A0 /* Pods-Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.release.xcconfig"; path = "Target Support Files/Pods-Login/Pods-Login.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,7 +153,6 @@
 			children = (
 				58E527AD2C17CE140011A4EE /* LoginViewController.swift */,
 				58E527C02C17E6000011A4EE /* LoginScreen.swift */,
-				58F84C8D2C1BCEE800B3F451 /* LoginScreen.xcassets */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -238,7 +235,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5890D2EB2C6D889C000771E7 /* Login.xcassets in Resources */,
-				58F84C8E2C1BCEE800B3F451 /* LoginScreen.xcassets in Resources */,
 				583B78BC2C224B1B004F831A /* GoogleService-Info.plist in Resources */,
 				58E527B62C17CE160011A4EE /* LaunchScreen.storyboard in Resources */,
 				58E527B32C17CE160011A4EE /* Assets.xcassets in Resources */,
