@@ -19,7 +19,6 @@
 		58E527AA2C17CE140011A4EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E527A92C17CE140011A4EE /* AppDelegate.swift */; };
 		58E527AC2C17CE140011A4EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E527AB2C17CE140011A4EE /* SceneDelegate.swift */; };
 		58E527AE2C17CE140011A4EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E527AD2C17CE140011A4EE /* LoginViewController.swift */; };
-		58E527B32C17CE160011A4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E527B22C17CE160011A4EE /* Assets.xcassets */; };
 		58E527B62C17CE160011A4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E527B42C17CE160011A4EE /* LaunchScreen.storyboard */; };
 		58E527C12C17E6000011A4EE /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E527C02C17E6000011A4EE /* LoginScreen.swift */; };
 		E45FE90FA09E11D4150656B0 /* Pods_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779CDE83A8C5A07FBBD31255 /* Pods_Login.framework */; };
@@ -40,7 +39,6 @@
 		58E527A92C17CE140011A4EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58E527AB2C17CE140011A4EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		58E527AD2C17CE140011A4EE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		58E527B22C17CE160011A4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58E527B52C17CE160011A4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58E527B72C17CE160011A4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58E527C02C17E6000011A4EE /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
@@ -141,7 +139,6 @@
 				58E527BD2C17E5870011A4EE /* Login */,
 				58E527A92C17CE140011A4EE /* AppDelegate.swift */,
 				58E527AB2C17CE140011A4EE /* SceneDelegate.swift */,
-				58E527B22C17CE160011A4EE /* Assets.xcassets */,
 				58E527B42C17CE160011A4EE /* LaunchScreen.storyboard */,
 				58E527B72C17CE160011A4EE /* Info.plist */,
 			);
@@ -237,7 +234,6 @@
 				5890D2EB2C6D889C000771E7 /* Login.xcassets in Resources */,
 				583B78BC2C224B1B004F831A /* GoogleService-Info.plist in Resources */,
 				58E527B62C17CE160011A4EE /* LaunchScreen.storyboard in Resources */,
-				58E527B32C17CE160011A4EE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
