@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		580F31AF2C20FB8D006E18AF /* RegisterScreen.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580F31AE2C20FB8D006E18AF /* RegisterScreen.xcassets */; };
 		583B78BC2C224B1B004F831A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 583B78BB2C224B1B004F831A /* GoogleService-Info.plist */; };
 		588F099F2C49BB3300B752F7 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588F099E2C49BB3300B752F7 /* Alert.swift */; };
 		588F09A22C5067F700B752F7 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588F09A12C5067F700B752F7 /* HomeScreen.swift */; };
@@ -29,7 +28,6 @@
 
 /* Begin PBXFileReference section */
 		0352B054DA4D7B7D8E815818 /* Pods-Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.debug.xcconfig"; path = "Target Support Files/Pods-Login/Pods-Login.debug.xcconfig"; sourceTree = "<group>"; };
-		580F31AE2C20FB8D006E18AF /* RegisterScreen.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = RegisterScreen.xcassets; sourceTree = "<group>"; };
 		583B78BB2C224B1B004F831A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		588F099E2C49BB3300B752F7 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		588F09A12C5067F700B752F7 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 			children = (
 				58ADC6DD2C1F552C009A8011 /* RegisterScreen.swift */,
 				58ADC6DF2C1F5536009A8011 /* RegisterViewController.swift */,
-				580F31AE2C20FB8D006E18AF /* RegisterScreen.xcassets */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -240,7 +237,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				580F31AF2C20FB8D006E18AF /* RegisterScreen.xcassets in Resources */,
 				5890D2EB2C6D889C000771E7 /* Login.xcassets in Resources */,
 				58F84C8E2C1BCEE800B3F451 /* LoginScreen.xcassets in Resources */,
 				583B78BC2C224B1B004F831A /* GoogleService-Info.plist in Resources */,
