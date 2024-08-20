@@ -12,6 +12,7 @@
 		588F09A22C5067F700B752F7 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588F09A12C5067F700B752F7 /* HomeScreen.swift */; };
 		588F09A42C50680400B752F7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588F09A32C50680400B752F7 /* HomeViewController.swift */; };
 		5890D2EB2C6D889C000771E7 /* Login.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5890D2EA2C6D889C000771E7 /* Login.xcassets */; };
+		5890D2EE2C703752000771E7 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5890D2ED2C703752000771E7 /* UserDetailView.swift */; };
 		58ADC6DE2C1F552C009A8011 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ADC6DD2C1F552C009A8011 /* RegisterScreen.swift */; };
 		58ADC6E02C1F5536009A8011 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ADC6DF2C1F5536009A8011 /* RegisterViewController.swift */; };
 		58DD732C2C61BCA700023B98 /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DD732B2C61BCA700023B98 /* UserDetailTableViewCell.swift */; };
@@ -31,6 +32,7 @@
 		588F09A12C5067F700B752F7 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		588F09A32C50680400B752F7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5890D2EA2C6D889C000771E7 /* Login.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Login.xcassets; sourceTree = "<group>"; };
+		5890D2ED2C703752000771E7 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 		58ADC6DD2C1F552C009A8011 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		58ADC6DF2C1F5536009A8011 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		58DD732B2C61BCA700023B98 /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
@@ -85,6 +87,14 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		5890D2EC2C703729000771E7 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				5890D2ED2C703752000771E7 /* UserDetailView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		58ADC6DC2C1F54DD009A8011 /* Register */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		58DD73282C61BC6300023B98 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				5890D2EC2C703729000771E7 /* CustomView */,
 				58DD732B2C61BCA700023B98 /* UserDetailTableViewCell.swift */,
 			);
 			path = Cell;
@@ -290,6 +301,7 @@
 				58E527AE2C17CE140011A4EE /* LoginViewController.swift in Sources */,
 				58E527C12C17E6000011A4EE /* LoginScreen.swift in Sources */,
 				58ADC6E02C1F5536009A8011 /* RegisterViewController.swift in Sources */,
+				5890D2EE2C703752000771E7 /* UserDetailView.swift in Sources */,
 				58DD73312C6580DD00023B98 /* DataUser.swift in Sources */,
 				588F09A22C5067F700B752F7 /* HomeScreen.swift in Sources */,
 				58DD732C2C61BCA700023B98 /* UserDetailTableViewCell.swift in Sources */,
