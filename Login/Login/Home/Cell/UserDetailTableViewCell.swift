@@ -10,6 +10,11 @@ import UIKit
 class UserDetailTableViewCell: UITableViewCell {
     
     static let identifier: String = "UserDetailTableViewCell"
+    
+    lazy var descriptionCell: UserDetailView = {
+        let view = UserDetailView()
+        return view
+    }()
       
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
