@@ -18,6 +18,7 @@ class UserDetailTableViewCell: UITableViewCell {
       
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        setUpContraints()
     }
     
     required init?(coder: NSCoder) {
@@ -29,5 +30,15 @@ class UserDetailTableViewCell: UITableViewCell {
     }
     
     public func setUpCell(data: DataUser) {
+        self.contentView.addSubview(self.descriptionCell)
+    }
+    
+    private func setUpContraints() {
+        NSLayoutConstraint.activate([
+            descriptionCell.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor),
+            descriptionCell.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leftAnchor),
+            descriptionCell.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor),
+            descriptionCell.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor)
+        ])
     }
 }
