@@ -18,6 +18,7 @@ class UserDetailTableViewCell: UITableViewCell {
       
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        addSubView()
         setUpContraints()
     }
     
@@ -26,11 +27,12 @@ class UserDetailTableViewCell: UITableViewCell {
     }
     
     func addSubView() {
-        
+        contentView.addSubview(self.descriptionCell)
     }
     
     public func setUpCell(data: DataUser) {
-        self.contentView.addSubview(self.descriptionCell)
+        self.descriptionCell.nameLabel.text = data.name
+        self.descriptionCell.userImageView.image = UIImage(named: data.nameImage)
     }
     
     private func setUpContraints() {
