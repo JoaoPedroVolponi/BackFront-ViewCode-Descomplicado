@@ -79,14 +79,6 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		5890D2E92C6D8884000771E7 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				5890D2EA2C6D889C000771E7 /* Login.xcassets */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
 		5890D2EC2C703729000771E7 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,8 +134,8 @@
 		58E527A82C17CE140011A4EE /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				5890D2E92C6D8884000771E7 /* Assets */,
 				583B78BB2C224B1B004F831A /* GoogleService-Info.plist */,
+				5890D2EA2C6D889C000771E7 /* Login.xcassets */,
 				588F099D2C49BB2500B752F7 /* Alert */,
 				588F09A02C5067DE00B752F7 /* Home */,
 				58ADC6DC2C1F54DD009A8011 /* Register */,
