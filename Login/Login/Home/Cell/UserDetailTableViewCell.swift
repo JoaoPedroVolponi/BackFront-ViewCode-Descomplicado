@@ -37,10 +37,10 @@ class UserDetailTableViewCell: UITableViewCell {
     
     private func setUpContraints() {
         NSLayoutConstraint.activate([
-            descriptionCell.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor),
-            descriptionCell.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leftAnchor),
-            descriptionCell.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor),
-            descriptionCell.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor)
+            descriptionCell.topAnchor.constraint(equalTo: topAnchor, constant: 1),
+            descriptionCell.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 1),
+            descriptionCell.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -1),
+            descriptionCell.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -1)
         ])
     }
 }
