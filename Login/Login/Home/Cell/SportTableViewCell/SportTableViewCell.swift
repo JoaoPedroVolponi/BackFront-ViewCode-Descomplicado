@@ -9,6 +9,8 @@ import UIKit
 
 class SportTableViewCell: UITableViewCell {
 
+    static let identifier: String = "SportTableViewCell"
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
