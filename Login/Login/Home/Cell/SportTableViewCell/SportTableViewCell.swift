@@ -14,9 +14,23 @@ class SportTableViewCell: UITableViewCell {
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        self.addSubView()
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    func addSubView() {
+        self.contentView.addSubview(self.sportTableViewCellScreen)
+    }
+    
+    func configConstraints() {
+        NSLayoutConstraint.activate([
+            self.sportTableViewCellScreen.topAnchor.constraint(equalTo: topAnchor),
+            self.sportTableViewCellScreen.leftAnchor.constraint(equalTo: leftAnchor),
+            self.sportTableViewCellScreen.rightAnchor.constraint(equalTo: rightAnchor),
+            self.sportTableViewCellScreen.bottomAnchor.constraint(equalTo: bottomAnchor)
+        ])
     }
 }
