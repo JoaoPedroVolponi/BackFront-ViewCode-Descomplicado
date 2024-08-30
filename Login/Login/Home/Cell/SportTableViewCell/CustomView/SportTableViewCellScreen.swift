@@ -24,9 +24,24 @@ class SportTableViewCellScreen: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        self.addSubview()
+        self.configConstraints()
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    func addSubview() {
+        self.addSubview(collectionView)
+    }
+    
+    func configConstraints() {
+        NSLayoutConstraint.activate([
+            self.collectionView.topAnchor.constraint(equalTo: self.topAnchor),
+            self.collectionView.leftAnchor.constraint(equalTo: self.leftAnchor),
+            self.collectionView.rightAnchor.constraint(equalTo: self.rightAnchor),
+            self.collectionView.bottomAnchor.constraint(equalTo: self.bottomAnchor),
+        ])
     }
 }
