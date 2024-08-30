@@ -103,10 +103,18 @@
 		5890D2F02C7EBF38000771E7 /* SportTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				5890D2F52C814FE8000771E7 /* CustomView */,
 				5890D2F12C7EBF5A000771E7 /* SportTableViewCell.swift */,
-				5890D2F32C801608000771E7 /* SportTableViewCellScreen.swift */,
 			);
 			path = SportTableViewCell;
+			sourceTree = "<group>";
+		};
+		5890D2F52C814FE8000771E7 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				5890D2F32C801608000771E7 /* SportTableViewCellScreen.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		58ADC6DC2C1F54DD009A8011 /* Register */ = {
