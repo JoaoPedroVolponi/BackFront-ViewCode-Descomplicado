@@ -15,6 +15,7 @@ class SportTableViewCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.addSubView()
+        configConstraints()
     }
     
     required init?(coder: NSCoder) {
@@ -22,6 +23,7 @@ class SportTableViewCell: UITableViewCell {
     }
     
     func addSubView() {
+        self.sportTableViewCellScreen.translatesAutoresizingMaskIntoConstraints = false
         self.contentView.addSubview(self.sportTableViewCellScreen)
     }
     
