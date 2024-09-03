@@ -16,6 +16,7 @@ class SportTableViewCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.addSubView()
         configConstraints()
+        self.sportTableViewCellScreen.configProtocolsCollectionView(delegate: self, dataSource: self)
     }
     
     required init?(coder: NSCoder) {
@@ -35,4 +36,16 @@ class SportTableViewCell: UITableViewCell {
             self.sportTableViewCellScreen.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
     }
+}
+
+extension SportTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        return UICollectionViewCell()
+    }
+    
+    
 }
