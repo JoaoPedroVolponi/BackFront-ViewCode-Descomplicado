@@ -15,6 +15,7 @@
 		5890D2EE2C703752000771E7 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5890D2ED2C703752000771E7 /* UserDetailView.swift */; };
 		5890D2F22C7EBF5A000771E7 /* SportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5890D2F12C7EBF5A000771E7 /* SportTableViewCell.swift */; };
 		5890D2F42C801608000771E7 /* SportTableViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5890D2F32C801608000771E7 /* SportTableViewCellScreen.swift */; };
+		5890D2F82C8949D7000771E7 /* SportCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5890D2F72C8949D7000771E7 /* SportCollectionViewCell.swift */; };
 		58ADC6DE2C1F552C009A8011 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ADC6DD2C1F552C009A8011 /* RegisterScreen.swift */; };
 		58ADC6E02C1F5536009A8011 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ADC6DF2C1F5536009A8011 /* RegisterViewController.swift */; };
 		58DD732C2C61BCA700023B98 /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DD732B2C61BCA700023B98 /* UserDetailTableViewCell.swift */; };
@@ -37,6 +38,7 @@
 		5890D2ED2C703752000771E7 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 		5890D2F12C7EBF5A000771E7 /* SportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTableViewCell.swift; sourceTree = "<group>"; };
 		5890D2F32C801608000771E7 /* SportTableViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTableViewCellScreen.swift; sourceTree = "<group>"; };
+		5890D2F72C8949D7000771E7 /* SportCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCollectionViewCell.swift; sourceTree = "<group>"; };
 		58ADC6DD2C1F552C009A8011 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		58ADC6DF2C1F5536009A8011 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		58DD732B2C61BCA700023B98 /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		5890D2F02C7EBF38000771E7 /* SportTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				5890D2F62C89499A000771E7 /* CollectionViewCell */,
 				5890D2F52C814FE8000771E7 /* CustomView */,
 				5890D2F12C7EBF5A000771E7 /* SportTableViewCell.swift */,
 			);
@@ -115,6 +118,14 @@
 				5890D2F32C801608000771E7 /* SportTableViewCellScreen.swift */,
 			);
 			path = CustomView;
+			sourceTree = "<group>";
+		};
+		5890D2F62C89499A000771E7 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5890D2F72C8949D7000771E7 /* SportCollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
 			sourceTree = "<group>";
 		};
 		58ADC6DC2C1F54DD009A8011 /* Register */ = {
@@ -322,6 +333,7 @@
 				58ADC6DE2C1F552C009A8011 /* RegisterScreen.swift in Sources */,
 				58E527AE2C17CE140011A4EE /* LoginViewController.swift in Sources */,
 				58E527C12C17E6000011A4EE /* LoginScreen.swift in Sources */,
+				5890D2F82C8949D7000771E7 /* SportCollectionViewCell.swift in Sources */,
 				58ADC6E02C1F5536009A8011 /* RegisterViewController.swift in Sources */,
 				5890D2EE2C703752000771E7 /* UserDetailView.swift in Sources */,
 				58DD73312C6580DD00023B98 /* DataUser.swift in Sources */,
