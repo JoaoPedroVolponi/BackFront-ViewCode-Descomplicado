@@ -7,6 +7,7 @@
 - Swift
 - UIKit
 - MVC
+- Firebase
 
 ## ▶️ Funcionalidades
 - Registro
