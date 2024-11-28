@@ -15,9 +15,9 @@
 
 ### 📱 Capturas de tela do aplicativo
 
-|       🍏       |              SplashScreen               |             Home               |
+|       🍏       |              Home               |             Register               |
 | :------------: | :----------------------------------------: | :---------------------------------------: |
-| Telas | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/swift/brasileirao/splashScreen.png" width="220px;" height="400" /> | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/swift/brasileirao/Home.png" width="220px;" height="400" /> | />
+| Telas | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/swift/login-backfront/home.png" width="220px;" height="400" /> | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/swift/login-backfront/register.png" width="220px;" height="400" /> | />
 
 ## ✨ Autor
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
