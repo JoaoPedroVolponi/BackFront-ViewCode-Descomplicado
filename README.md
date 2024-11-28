@@ -1,7 +1,7 @@
 # Brasileirão
 
 ## 📒 Sobre
-<p align="center">Aplicativo que demonstra a Tabela do campeonato Brasileiro</p>
+<p align="center">Login com Firebase</p>
 
 ## 🛠️ Tecnologias e Ferramentas
 - Swift
