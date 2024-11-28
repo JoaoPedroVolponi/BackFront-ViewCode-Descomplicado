@@ -9,8 +9,8 @@
 - MVC
 
 ## ▶️ Funcionalidades
-- Consumo da API - https://www.api-futebol.com.br/
-- Tabela completa do campeonato Brasileiro
+- Registro
+- Login
 
 ### 📱 Capturas de tela do aplicativo
 
